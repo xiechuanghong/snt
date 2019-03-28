@@ -1,0 +1,136 @@
+// 每个页面的公共样式
+.common {
+    color: blue;
+    font-size: 40px;
+    .topInput {
+      height: 70px;
+      width: 100%;
+      // background: rgba($color: #103b6b, $alpha: 0.4);
+      border: 1px solid #1ce9f6;
+      border-radius: 10px;
+      .el-form {
+        .el-form-item {
+          // padding-top: 26px;
+          // padding-left: 10px;
+          span {
+            font-size: 16px;
+            color: #fff;
+          }
+          .inputIP {
+            margin-left: 10px;
+          }
+          .btnStyle {
+            padding: 6px 10px;
+            font-size: 12px;
+            color: #fff;
+            margin-left: 14px;
+            margin-top: 2px;
+            border-color: rgba($color: #40e2f5, $alpha: 0.5)
+          }
+          .selectBtn {
+            background: rgba($color: #40e2f5, $alpha: 0.5);
+          }
+          .addBtn {
+            background: rgba(64, 226, 245, 0.5);
+          }
+          .remuseBtn {
+            background: rgba($color: #40e2f5, $alpha: 0.9);
+          }
+          .el-form-item__content{
+            margin-left: 30px !important;
+          }
+        }
+      }
+    }
+    .container {
+      margin-top: 20px;
+      .btnStyle {
+        padding: 7px 15px;
+        font-size: 12px;
+        color: #fff;
+        margin-left: 14px;
+        background-color: rgba(64, 226, 245, 0.5);
+        border-color: rgba($color: #40e2f5, $alpha: 0.5);
+      }
+      .configureBtn {
+        color: #00ddff;
+      }
+    }
+    .addDialog {
+      .formInput {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .colorText {
+        color: #fff;
+      }
+      .widthText {
+        width: 80px;
+      }
+      // .deviceIp {
+      //   padding-left: 16px;
+      // }
+      .adress {
+        padding: 8px;
+      }
+    }
+    .transfer-footer {
+      margin-left: 20px;
+      padding: 6px 5px;
+    }
+  }
+  // 每页的input列表
+  .disForm{
+    display: flex;
+  }
+  .el-form-item__label{
+    color: #fff;
+  }
+  .el-form-item__content{
+    display: flex;
+    flex: 1;
+  }
+  .el-input__inner{
+    height: 34px;
+  }
+  // 表格样式
+  .el-table td, .el-table th{
+    padding: 7px 0 !important;
+  }
+  // 表单样式
+  .tableForm {
+    padding: 8px 0;
+  }
+  .tableForm table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  .tableForm table td {
+    padding: 10px;
+    vertical-align: top;
+  }
+  .tableForm .el-form-item {
+    margin-bottom: 0;
+  }
+  .tableForm ::after,
+  .tableForm ::before {
+    display: initial;
+  }
+  .tableForm .el-form-item__content {
+    line-height: 30px;
+  }
+  .tableForm .el-form-item__label {
+    line-height: 30px;
+  }
+  .tableForm .el-input__inner {
+    height: 30px !important;
+    line-height: 30px;
+  }
+  .tableForm .el-input__icon {
+    line-height: 30px;
+  }
+  .tableForm .el-input,
+  .tableForm .el-select {
+    width: 100%;
+  }
